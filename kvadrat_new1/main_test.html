@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/cs-select.css" />
+  <link rel="stylesheet" type="text/css" href="css/cs-skin-border.css" />
+  <link rel="stylesheet" href="css/camera.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/booking.css">
+
+  <link rel="stylesheet" type="text/css" href="css/style6.css" />
+
+
+  <script src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.dropdown.js"></script>
+
+
+
+  <script src="js/jquery-migrate-1.2.1.js"></script>
+  <!--[if lt IE 9]>
+
+  <html class="lt-ie9">
+  <div style="clear: both; text-align:center; position: relative;">
+    <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+      <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a>
+  </div>
+  </html>
+  <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+
+  <!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <script src="js/device.min.js"></script>
+</head>
+<body>
+
+
+
+
+
+<div class="page">
+  <!--
+  ========================================================
+                              HEADER
+  ========================================================
+  -->
+
+
+  <header class="hl">
+
+
+      <img src="images/logo.png" height="50px" width="284px" align="left"  />
+
+      <div class="container">
+
+          <div class="brand">
+              <h1 class="brand_name">
+              </h1>
+          </div>
+
+             <select class="cs-select cs-skin-border">
+                <option value="" disabled selected>Выберите город</option>
+                <option value="1">Краcнодар</option>
+                <option value="2">Ростов-на-Дону</option>
+            </select>
+
+
+            <select class="cs-select cs-skin-border" id="catalog">
+                <option value="-1" selected>Каталог товаров</option>
+                <option value="1" data-link="santechnika.html">Сантехника</option>
+                <option value="2" data-link="ceramic-tiles.html">Керамическая плитка</option>
+                <option value="3" data-link="klinker.html">Клинкер</option>
+                <option value="4" data-link="mozaika.html">Мозайка</option>
+                <option value="5" data-link="himiya.html">Химия</option>
+                <option value="6" data-link="instruments.html">Монтажные инструменты</option>
+                <option value="7" data-link="tovar.html">Товары для ванной комнаты</option>
+                <option value="8" data-link="installations.html">Инсталяции</option>
+				<option value="9" data-link="mebel.html">Мебель для ванной</option>
+            </select>
+
+
+          <div class="call-us">
+              <a href="callto:#"><span id="phone">+7 (861) 275-55-52</span></a>
+          </div>
+
+
+      </div>
+
+
+
+
+  </header>
+
+
+    <div class="camera_container">
+        <div id="camera" class="camera_wrap">
+            <div data-src="images/page-1_slide08.jpg">
+                <div class="camera_caption fadeIn"></div>
+            </div>
+            <div data-src="images/page-1_slide02.jpg">
+                <div class="camera_caption fadeIn"></div>
+            </div>
+            <div data-src="images/page-1_slide03.jpg">
+                <div class="camera_caption fadeIn"></div>
+            </div>
+        </div>
+    </div>
+  <!--
+  ========================================================
+                              CONTENT
+  ========================================================
+  -->
+  <main>
+
+
+    <section class="well bg-color1">
+      <div class="container">
+        <h2 class="center">Каталог товаров</h2>
+        <p class="txt1 off1 center">В супермаркетах "КВАДРАТ" представлено более 15 000 товаров, которые позволят решить любые проблемы с ремонтом даже самой высокой сложности!</p>
+        <ul class="product-list row">
+          <li class="grid_4 wow fadeInLeft"><img src="images/catalog-ceramic-tiles.jpg" alt="">
+            <h3><a href="klinker.html">Керамическая плитка</a></h3>
+
+          </li>
+
+          <li class="grid_4 wow fadeIn">
+            <h3><a href="#">Клинкерная плитка</a></h3>
+            <img src="images/catalog-clinker.jpg" alt="">
+          </li>
+          <li class="grid_4 wow fadeInRight"><img src="images/catalog-mozaika.jpg" alt="">
+            <h3><a href="#">Мозаика</a></h3>
+
+          </li>
+        </ul>
+        <ul class="product-list row">
+          <li class="grid_4 wow fadeInLeft"><img src="images/catalog-santechnika.jpg" alt="">
+            <h3><a href="#">Сантехника и аксессуары</a></h3>
+          </li>
+          <li class="grid_4 wow fadeIn">
+            <h3><a href="#">Инсталяции и арматура</a></h3>
+            <img src="images/catalog-install.jpg" alt="">
+          </li>
+          <li class="grid_4 wow fadeInRight"><img src="images/catalog-instrument.jpg" alt="">
+            <h3><a href="#">Монтажные инструменты</a></h3>
+
+          </li>
+        </ul>
+        <ul class="product-list row">
+          <li class="grid_4 wow fadeInLeft"><img src="images/catalog-himiya.jpg" alt="">
+            <h3><a href="klinker.html">Строительная химия</a></h3>
+
+          </li>
+
+          <li class="grid_4 wow fadeIn">
+            <h3><a href="#">Товары для ванной комнаты</a></h3>
+            <img src="images/catalog-tovari-dlia-vannoi.jpg" alt="">
+          </li>
+          <li class="grid_4 wow fadeInRight"><img src="images/catalog-mebell.jpg" alt="">
+            <h3><a href="#">Мебель для ванной комнаты</a></h3>
+
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+ 
+
+
+
+    <section class="well well__mod2 ta-center shadow">
+      <div class="container">
+        <h3 class="col-secondary">Супермаркет "Квадрат"</h3>
+        <iframe class="video" src="//player.vimeo.com/video/129788176?wmode=transparent"></iframe>
+      </div>
+    </section>
+
+	<div>&nbsp</div>
+	<div>&nbsp</div>
+    <h2 class="center">Галерея</h2>
+
+    <section class="gallery">
+
+      <a href="images/gallery-1.jpg" data-fancybox-group="1" class="thumb"><img src="images/gallery-1.jpg" alt=""><span class="thumb_overlay"></span><span class="thumb_overlay_cnt">зона керамогранита</span></a>
+      <a href="images/gallery-5.jpg" data-fancybox-group="1" class="thumb"><img src="images/gallery-5.jpg" alt=""><span class="thumb_overlay"></span><span class="thumb_overlay_cnt">зона клинкера</span></a>
+      <a href="images/gallery-4.jpg" data-fancybox-group="1" class="thumb"><img src="images/gallery-4.jpg" alt=""><span class="thumb_overlay"></span><span class="thumb_overlay_cnt">зона сантехники</span></a>
+      <a href="images/gallery-3.jpg" data-fancybox-group="1" class="thumb"><img src="images/gallery-3.jpg" alt=""><span class="thumb_overlay"></span><span class="thumb_overlay_cnt">зона керамической плитки</span></a>
+      <a href="images/gallery-2.jpg" data-fancybox-group="1" class="thumb"><img src="images/gallery-2.jpg" alt=""><span class="thumb_overlay"></span><span class="thumb_overlay_cnt">зона керамической плитки</span></a>
+      <a href="images/gallery-6.jpg" data-fancybox-group="1" class="thumb"><img src="images/gallery-6.jpg" alt=""><span class="thumb_overlay"></span><span class="thumb_overlay_cnt">зона керамической плитки</span></a>
+
+    </section>
+
+    <section class="well ins1">
+      <div class="container">
+        <h2 class="center">Специальные предложения</h2>
+
+        <ul class="pricing-table row">
+          <li data-equal-group="1" data-wow-delay=".3s" class="grid_4 wow fadeInLeft"><img src="images/sales1.jpg" alt="">
+            <div class="price">987 руб.м2</div>
+            <p>Керамический гранит "Grasaro" коллекция "City Style"</p>
+          </li>
+          <li data-equal-group="1" class="grid_4 wow fadeInLeft"><img src="images/sales2.jpg" alt="">
+            <div class="price">599 руб.м2</sup></div>
+            <p>Керамический гранит "Уральский гранит" коллекция "Стандарт"</p>
+          </li>
+          <li data-equal-group="1" class="grid_4 wow fadeInRight"><img src="images/sales3.jpg" alt="">
+            <div class="price">219 руб.м2</div>
+            <p>Керамический гранит "ATEM" коллекция "Технический гранит"</p>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+
+
+  </main>
+  <!--
+    ========================================================
+                                FOOTER
+    ========================================================
+    -->
+
+  <section class="well ins1">
+        <div class="container">
+            <h2 class="center">Наши услуги</h2>
+            <div class="row off3 accordion">
+                <div class="grid_6">
+                    <h4 class="accordion_header primary">
+                        Доставка товара
+                    </h4>
+                    <div class="accordion_cnt">
+                        Мы осуществляем доставку купленого товара, условия доставки уточняйте у менеджеров.
+                    </div>
+
+                    <h4 class="accordion_header primary">
+                        Дизайн-проект
+                    </h4>
+                    <div class="accordion_cnt">
+                        Услуга «дизайн-проект» предоставляется клиенту бесплатно, в подарок к покупаемой плитке! Условия предоставления дизайн-проекта для  покупателей уточняйте у менеджеров.
+                    </div>
+
+                    <h4 class="accordion_header primary">
+                        Изготовление ступеней
+                    </h4>
+
+                    <div class="accordion_cnt">
+                        По желанию клиента наша компания может изготовить ступени из плитки, имеющейся в ассортименте нашей компании.
+                    </div>
+					<h4 class="accordion_header primary">
+                        Комплектация ванн
+                    </h4>
+                    <div class="accordion_cnt">
+                        Ванны "BAS"- это современные технологии и оригинальные линии, обеспечивающие комфорт принятия водных процедур. По желанию клиента любая из этих ванн может быть укомплектована гидромассажным или аэромассажным оборудованием, а так же другими функциями, предусмотренными производителем. Схемы комплектации можно узнать в любом из магазинов компании.
+                    </div>
+
+                </div>
+
+                <div class="grid_6">
+                    <h4 class="accordion_header primary">
+                       Резка плитки
+                    </h4>
+                    <div class="accordion_cnt">
+                       Наша компания имеет уникальное оборудование, позволяющее осуществлять резку плитки любых форматов по размерам, необходимым клиенту. Стоимость данной услуги уточняйте у продавцов-консультантов.
+                    </div>
+
+                    <h4 class="accordion_header primary">
+                        Изготовление панно
+                    </h4>
+                    <div class="accordion_cnt">
+                        Высокотехнологичное оборудование, имеющееся в нашей компании, позволяет изготовить из плитки разнообразные панно, как по имеющимся эскизам, так и по рисунку заказчика.
+                    </div>
+
+                    <h4 class="accordion_header primary">
+                        Укладка плитки
+                    </h4>
+                    <div class="accordion_cnt">
+                        Высококлассные мастера нашей компании осуществляют работы по укладке плитки любой сложности. Составление сметы и заключение договора на оказание услуг позволит клиенту чувствовать себя защищённым от неожиданностей при ремонте.
+                    </div>
+					<h4 class="accordion_header primary">
+                        Изготовление плинтусов
+                    </h4>
+                    <div class="accordion_cnt">
+                        Наша компания имеет уникальное оборудование, позволяющее изготовить различные плинтуса по размерам, необходимым клиенту. Стоимость данной услуги уточняйте у продавцов-консультантов.
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  <footer class="mobile-center">
+
+    <iframe id="contacts"
+            scrolling="no"
+            frameBorder="0"
+            width="100%"
+            height="1300"
+            src="http://192.168.13.47/kvadrat/frames/site1/contacts_krasnodar.html">
+    </iframe>
+
+
+
+  </footer>
+</div>
+
+
+
+<script src="js/classie.js"></script>
+<script src="js/selectFx.js"></script>
+<script>
+  (function() {
+    [].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {
+
+     new SelectFx(el,{
+        newTab : false,
+        stickyPlaceholder : true,
+       // callback when changing the value
+       onChange : function( val ) {
+          if (val == 1) {
+            $("#phone").text("+7 (861) 275-55-52");
+              document.getElementById('contacts').src = "http://192.168.13.47/kvadrat/frames/site1/contacts_krasnodar.html";
+
+          }
+
+          if (val == 2) {
+            $("#phone").text("+7 (863) 209-83-46");
+              document.getElementById('contacts').src = "http://192.168.13.47/kvadrat/frames/site1/contacts_rostov.html";
+
+          }
+       }
+
+     })
+
+    } );
+  })();
+</script>
+
+
+<script src="js/script.js"></script><!-- coded by Velmisoff -->
+</body>
+</html>

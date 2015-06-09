@@ -1,0 +1,273 @@
+<?php
+echo ("sdsd");
+?>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/cs-select.css" />
+    <link rel="stylesheet" type="text/css" href="css/cs-skin-border.css" />
+    <link rel="stylesheet" href="css/camera.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/booking.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style6.css" />
+    <script src="js/modernizr.custom.63321.js"></script>
+
+    <link href="js/video-js/video-js.css" rel="stylesheet" type="text/css">
+    <script src="js/video-js/video.js"></script>
+
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.dropdown.js"></script>
+
+
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+    <!--[if lt IE 9]>
+
+    <html class="lt-ie9">
+    <div style="clear: both; text-align:center; position: relative;">
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a>
+    </div>
+    </html>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script src="js/device.min.js"></script>
+</head>
+<body>
+
+
+
+<div class="page">
+    <!--
+  ========================================================
+                              HEADER
+  ========================================================
+  -->
+
+
+    <header class="hl">
+
+
+        <img src="images/logo.png" height="50px" width="284px" align="left"  />
+
+        <div class="container">
+
+            <div class="brand">
+                <h1 class="brand_name">
+                </h1>
+            </div>
+
+            <select class="cs-select cs-skin-border" id="city_selector">
+                <option value="" disabled selected>Выберете город</option>
+                <option>Краcнодар</option>
+                <option>Ростов-на-Дону</option>
+            </select>
+
+
+            <select class="cs-select cs-skin-border" id="catalog">
+                <option value="-1" selected>Каталог товаров</option>
+                <option value="1">Сантехника</option>
+                <option value="2">Керамическая плитка</option>
+                <option value="3">Клинкер</option>
+                <option value="4">Мозайка</option>
+                <option value="5">Химия</option>
+                <option value="6">Монтажные инструменты</option>
+                <option value="7">Товары для ванной комнаты</option>
+                <option value="8">Инсталяции</option>
+            </select>
+
+
+
+            <div class="call-us">
+                <a href="callto:#">+7 (861) 275-55-52</a>
+            </div>
+
+
+        </div>
+
+
+
+
+    </header>
+
+
+    <div class="camera_container">
+        <div id="camera" class="camera_wrap">
+            <div data-src="images/page-1_slide01.jpg">
+                <div class="camera_caption fadeIn"></div>
+            </div>
+            <div data-src="images/page-1_slide02.jpg">
+                <div class="camera_caption fadeIn"></div>
+            </div>
+            <div data-src="images/page-1_slide03.jpg">
+                <div class="camera_caption fadeIn"></div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+
+     <section class="well ins1">
+       <div class="container">
+         <h2 class="center">Загаловок</h2>
+         <p class="txt1 center">Текст на рыбе</p>
+       </div>
+     </section>
+
+        <section class="parallax" data-url="images/1banner.jpg" data-mobile="true">
+            <div class="container">
+                <div class="row">
+                    <div class="grid_5">
+                        <div class="well well__mod bg col-white">
+                            <h3>Керамическая плитка</h3>
+                            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <p></p>
+
+        <section class="parallax" data-url="images/2banner.jpg" data-mobile="true">
+            <div class="container">
+                <div class="row">
+                    <div class="grid_5 preffix_7">
+                        <div class="well well__mod_1 bg col-white">
+                            <h3 class="col-primary">Фактура</h3>
+                            <p class="col-1">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="well ins1">
+            <div class="container">
+                <h2 class="center">Наши бренды</h2>
+            </div>
+        </section>
+        <section data-url="images/parallax1.jpg" data-mobile="true" class="well3 center parallax">
+            <h2>Luxury travel</h2>
+            <h3>Just got a little bit cheaper</h3><a href="#" class="btn">More</a>
+        </section>
+
+    </main>
+    <!--
+     ========================================================
+                                 FOOTER
+     ========================================================
+     -->
+
+    <section class="well ins1">
+        <div class="container">
+            <h3 class="center">Наши услуги</h3>
+            <div class="row off3 accordion">
+                <div class="grid_6">
+                    <h4 class="accordion_header primary">
+                        Lorem ipsum dolor
+                    </h4>
+                    <div class="accordion_cnt">
+                        Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    </div>
+
+                    <h4 class="accordion_header primary">
+                        Conse ctetur adipisicing
+                    </h4>
+                    <div class="accordion_cnt">
+                        Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    </div>
+
+                    <h4 class="accordion_header primary">
+                        Elit sed do eiusmod tempor
+                    </h4>
+
+                    <div class="accordion_cnt">
+                        Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    </div>
+
+                    <h4 class="accordion_header primary">
+                        Incididunt ut labore
+                    </h4>
+                    <div class="accordion_cnt">
+                        Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    </div>
+                </div>
+
+                <div class="grid_6">
+                    <h4 class="accordion_header primary">
+                        Et dolore magna aliqua
+                    </h4>
+                    <div class="accordion_cnt">
+                        Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    </div>
+
+                    <h4 class="accordion_header primary">
+                        Ut enim ad minim veniam
+                    </h4>
+                    <div class="accordion_cnt">
+                        Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    </div>
+
+                    <h4 class="accordion_header primary">
+                        Quis nostrud exercitation
+                    </h4>
+                    <div class="accordion_cnt">
+                        Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    </div>
+
+                    <h4 class="accordion_header primary">
+                        Ullamco laboris nisi
+                    </h4>
+                    <div class="accordion_cnt">
+                        Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="mobile-center">
+
+        <iframe id="contacts"
+                scrolling="no"
+                frameBorder="0"
+                width="100%"
+                height="1000"
+                src="http://192.168.13.47/kvadrat/frames/site1/contacts.html">
+        </iframe>
+
+    </footer>
+</div>
+
+<script src="js/classie.js"></script>
+<script src="js/selectFx.js"></script>
+<script>
+    (function() {
+        [].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {
+            new SelectFx(el);
+        } );
+    })();
+</script>
+
+
+<script src="js/script.js"></script><!-- coded by Kirk -->
+</body>
+</html>
