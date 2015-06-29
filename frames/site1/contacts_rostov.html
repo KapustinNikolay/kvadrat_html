@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/subscribe-form.css">
+    <link rel="stylesheet" href="css/contact-form.css">
+    <link rel="stylesheet" href="css/booking.css">
+    <link rel="stylesheet" href="css/google-map.css">
+
+    <script src="js/jquery.js"></script>
+
+
+    <style>
+        html, body, #map-canvas {
+            height: 80%;
+            margin-top: 10px;
+            padding: 0px
+        }
+    </style>
+    <!--<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>-->
+    <script>
+        /*function initialize() {
+            var myLatlng = new google.maps.LatLng(47.208903,39.631488);
+            var mapOptions = {
+                zoom: 17,
+                center: myLatlng,
+                panControl: true,
+                zoomControl: true,
+                scaleControl: true
+            }
+            var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+            var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map,
+                title: 'Магазин Квадрат'
+            });
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);*/
+
+    </script>
+
+
+
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+
+    <!--[if lt IE 9]>
+    <html class="lt-ie9">
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a>
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <script src='js/device.min.js'></script>
+</head>
+
+<body>
+
+
+
+<div class="page">
+
+    <!--========================================================
+                              FOOTER
+    =========================================================-->
+    <footer>
+        <section class="well2">
+            <div class="container">
+                <div class="row">
+                    <div class="grid_6">
+                        <h3>Контакты</h3>
+                        <ul class="contact-list off3">
+                            <li class="fl-bigmug-line-big104">
+                                <address id="addr">
+                                    г. Ростов-на-Дону, пр. Коммунистический, 30
+                                </address>
+                            </li>
+                            <li class="fl-bigmug-line-phone351"><a href="callto:#"><span id="phone">+7 (863) 209-83-46</span></a></li>
+                            <li class="fl-bigmug-line-opened25"><a href="mailto:#">info@kvadratmarket.ru</a></li>
+                        </ul>
+
+                        <br /><br />
+                        <ul class="contact-list off3">
+                            <li class="fl-bigmug-line-big104">
+                                <address style="color:lightgrey" id="addr2">
+                                    г. Краснодар, Московская ул., 69
+                                </address>
+                            </li>
+                            <li class="fl-bigmug-line-phone351"><a href="callto:#"><span id="phone2" style="color:lightgrey">+7 (861) 275-55-52</span></a></li>
+                            <li class="fl-bigmug-line-opened25"><a style="color:lightgrey" href="mailto:#">info@kvadratmarket.ru</a></li>
+                        </ul>
+
+
+                    </div>
+                    <div class="grid_6">
+                        <h3>Обратная связь</h3>
+
+                        <form id="contact-form" class='contact-form off3'>
+                            <div class="contact-form-loader"></div>
+                            <fieldset>
+                                <label class="name">
+                                    <input type="text" name="name" placeholder="Ваше имя" value="" data-constraints="@Required @JustLetters"/>
+                                    <span class="empty-message">Это поле должно быть заполнено</span>
+                                    <span class="error-message">Имя только буквы</span>
+                                </label>
+
+                                <label class="email">
+                                    <input type="text" name="email" placeholder="Ваше e-mail" value="" data-constraints="@Required @Email"/>
+
+                                    <span class="empty-message">Это поле должно быть заполнено</span>
+                                    <span class="error-message">Некорректный адрес электронной почты</span>
+                                </label>
+
+                                <label class="phone">
+                                    <input type="text" name="phone" placeholder="Ваш телефон" value=""/>
+
+                                </label>
+
+                                <label class="message">
+                                    <textarea name="message" placeholder="Сообщение">
+
+                                    </textarea>
+
+
+                                </label>
+
+                                <div class="btn-wr">
+                                    <a class="btn" href="#" data-type="submit">Отправить</a>
+                                </div>
+                            </fieldset>
+                            <div class="modal fade response-message">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                                &times;
+                                            </button>
+                                            <h4 class="modal-title">Отлично</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            Ваше сообщение успешно отправлено!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <section class="map">
+
+        </section>
+    </footer>
+</div>
+
+<!--<div id="map-canvas"></div>-->
+
+
+<script src="js/script.js"></script>
+<!-- coded by Kirk -->
+</body>
+</html>
