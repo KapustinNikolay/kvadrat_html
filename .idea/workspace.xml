@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f021b56a-1bd6-4c8a-91a2-79f40d077f30" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ceramic-tiles.html" afterPath="$PROJECT_DIR$/ceramic-tiles.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/himiya.html" afterPath="$PROJECT_DIR$/himiya.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/installations.html" afterPath="$PROJECT_DIR$/installations.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/instruments.html" afterPath="$PROJECT_DIR$/instruments.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/klinker.html" afterPath="$PROJECT_DIR$/klinker.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mebel.html" afterPath="$PROJECT_DIR$/mebel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mozaika.html" afterPath="$PROJECT_DIR$/mozaika.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/santechnika.html" afterPath="$PROJECT_DIR$/santechnika.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tovar.html" afterPath="$PROJECT_DIR$/tovar.html" />
+    </list>
+    <ignored path="kvadrat_new.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="kvadrat_new" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ceramic-tiles.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ceramic-tiles.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-30.076923">
+              <caret line="100" column="39" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="39" />
+              <folding>
+                <marker date="1438074591328" expanded="true" signature="1569:1947" placeholder="..." />
+                <marker date="1438074591328" expanded="false" signature="1587:1638" placeholder="..." />
+                <marker date="1438074591328" expanded="true" signature="1639:1935" placeholder="..." />
+                <marker date="1438074591328" expanded="true" signature="1714:1924" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="himiya.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/himiya.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-33.346153">
+              <caret line="99" column="38" selection-start-line="99" selection-start-column="38" selection-end-line="99" selection-end-column="38" />
+              <folding>
+                <marker date="1438074591378" expanded="true" signature="1548:1926" placeholder="..." />
+                <marker date="1438074591378" expanded="false" signature="1566:1617" placeholder="..." />
+                <marker date="1438074591378" expanded="true" signature="1618:1914" placeholder="..." />
+                <marker date="1438074591378" expanded="true" signature="1693:1903" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="installations.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/installations.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-26.807692">
+              <caret line="98" column="39" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
+              <folding>
+                <marker date="1438074591364" expanded="true" signature="1552:1930" placeholder="..." />
+                <marker date="1438074591364" expanded="false" signature="1570:1621" placeholder="..." />
+                <marker date="1438074591364" expanded="true" signature="1622:1918" placeholder="..." />
+                <marker date="1438074591364" expanded="true" signature="1697:1907" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="instruments.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/instruments.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-32.692307">
+              <caret line="98" column="39" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
+              <folding>
+                <marker date="1438074591339" expanded="true" signature="1536:1914" placeholder="..." />
+                <marker date="1438074591339" expanded="false" signature="1554:1605" placeholder="..." />
+                <marker date="1438074591339" expanded="true" signature="1606:1902" placeholder="..." />
+                <marker date="1438074591339" expanded="true" signature="1681:1891" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="klinker.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/klinker.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-30.73077">
+              <caret line="98" column="39" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
+              <folding>
+                <marker date="1438074591297" expanded="true" signature="1558:1936" placeholder="..." />
+                <marker date="1438074591297" expanded="false" signature="1576:1627" placeholder="..." />
+                <marker date="1438074591297" expanded="true" signature="1628:1924" placeholder="..." />
+                <marker date="1438074591297" expanded="true" signature="1703:1913" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mebel.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mebel.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-28.76923">
+              <caret line="101" column="39" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
+              <folding>
+                <marker date="1438074591311" expanded="true" signature="1529:1907" placeholder="..." />
+                <marker date="1438074591311" expanded="false" signature="1547:1598" placeholder="..." />
+                <marker date="1438074591311" expanded="true" signature="1599:1895" placeholder="..." />
+                <marker date="1438074591311" expanded="true" signature="1674:1884" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mozaika.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mozaika.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-31.384615">
+              <caret line="99" column="39" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+              <folding>
+                <marker date="1438074591389" expanded="true" signature="1542:1920" placeholder="..." />
+                <marker date="1438074591389" expanded="false" signature="1560:1611" placeholder="..." />
+                <marker date="1438074591389" expanded="true" signature="1612:1908" placeholder="..." />
+                <marker date="1438074591389" expanded="true" signature="1687:1897" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="santechnika.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/santechnika.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-31.384615">
+              <caret line="99" column="39" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+              <folding>
+                <marker date="1438074591351" expanded="true" signature="1512:1890" placeholder="..." />
+                <marker date="1438074591351" expanded="false" signature="1530:1581" placeholder="..." />
+                <marker date="1438074591351" expanded="true" signature="1582:1878" placeholder="..." />
+                <marker date="1438074591351" expanded="true" signature="1657:1867" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tovar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tovar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-32.03846">
+              <caret line="100" column="39" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
+              <folding>
+                <marker date="1438074591401" expanded="true" signature="1532:1910" placeholder="..." />
+                <marker date="1438074591401" expanded="false" signature="1550:1601" placeholder="..." />
+                <marker date="1438074591401" expanded="true" signature="1602:1898" placeholder="..." />
+                <marker date="1438074591401" expanded="true" signature="1677:1887" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.48333332">
+              <caret line="1077" column="38" selection-start-line="1077" selection-start-column="38" selection-end-line="1077" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/ceramic-tiles.html" />
+        <option value="$PROJECT_DIR$/himiya.html" />
+        <option value="$PROJECT_DIR$/installations.html" />
+        <option value="$PROJECT_DIR$/instruments.html" />
+        <option value="$PROJECT_DIR$/klinker.html" />
+        <option value="$PROJECT_DIR$/mebel.html" />
+        <option value="$PROJECT_DIR$/mozaika.html" />
+        <option value="$PROJECT_DIR$/santechnika.html" />
+        <option value="$PROJECT_DIR$/tovar.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1928" />
+    <option name="height" value="1164" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kvadrat_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kvadrat_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kvadrat-new.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kvadrat_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kvadrat-new.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kvadrat_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kvadrat-new.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f021b56a-1bd6-4c8a-91a2-79f40d077f30" name="Default" comment="" />
+      <created>1438069509276</created>
+      <option name="number" value="Default" />
+      <updated>1438069509276</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1928" height="1164" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24960506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/camera.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/grid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="258" column="32" selection-start-line="258" selection-start-column="32" selection-end-line="258" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307">
+          <caret line="207" column="14" selection-start-line="207" selection-start-column="14" selection-end-line="207" selection-end-column="14" />
+          <folding>
+            <marker date="1438074323693" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438074323693" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1438074323693" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438074323693" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438074323693" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceramic-tiles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.076923">
+          <caret line="100" column="39" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="39" />
+          <folding>
+            <marker date="1438074591328" expanded="true" signature="1569:1947" placeholder="..." />
+            <marker date="1438074591328" expanded="false" signature="1587:1638" placeholder="..." />
+            <marker date="1438074591328" expanded="true" signature="1639:1935" placeholder="..." />
+            <marker date="1438074591328" expanded="true" signature="1714:1924" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/himiya.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-33.346153">
+          <caret line="99" column="38" selection-start-line="99" selection-start-column="38" selection-end-line="99" selection-end-column="38" />
+          <folding>
+            <marker date="1438074591378" expanded="true" signature="1548:1926" placeholder="..." />
+            <marker date="1438074591378" expanded="false" signature="1566:1617" placeholder="..." />
+            <marker date="1438074591378" expanded="true" signature="1618:1914" placeholder="..." />
+            <marker date="1438074591378" expanded="true" signature="1693:1903" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installations.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.807692">
+          <caret line="98" column="39" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
+          <folding>
+            <marker date="1438074591364" expanded="true" signature="1552:1930" placeholder="..." />
+            <marker date="1438074591364" expanded="false" signature="1570:1621" placeholder="..." />
+            <marker date="1438074591364" expanded="true" signature="1622:1918" placeholder="..." />
+            <marker date="1438074591364" expanded="true" signature="1697:1907" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instruments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-32.692307">
+          <caret line="98" column="39" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
+          <folding>
+            <marker date="1438074591339" expanded="true" signature="1536:1914" placeholder="..." />
+            <marker date="1438074591339" expanded="false" signature="1554:1605" placeholder="..." />
+            <marker date="1438074591339" expanded="true" signature="1606:1902" placeholder="..." />
+            <marker date="1438074591339" expanded="true" signature="1681:1891" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/klinker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.73077">
+          <caret line="98" column="39" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
+          <folding>
+            <marker date="1438074591297" expanded="true" signature="1558:1936" placeholder="..." />
+            <marker date="1438074591297" expanded="false" signature="1576:1627" placeholder="..." />
+            <marker date="1438074591297" expanded="true" signature="1628:1924" placeholder="..." />
+            <marker date="1438074591297" expanded="true" signature="1703:1913" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mebel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.76923">
+          <caret line="101" column="39" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
+          <folding>
+            <marker date="1438074591311" expanded="true" signature="1529:1907" placeholder="..." />
+            <marker date="1438074591311" expanded="false" signature="1547:1598" placeholder="..." />
+            <marker date="1438074591311" expanded="true" signature="1599:1895" placeholder="..." />
+            <marker date="1438074591311" expanded="true" signature="1674:1884" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mozaika.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-31.384615">
+          <caret line="99" column="39" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+          <folding>
+            <marker date="1438074591389" expanded="true" signature="1542:1920" placeholder="..." />
+            <marker date="1438074591389" expanded="false" signature="1560:1611" placeholder="..." />
+            <marker date="1438074591389" expanded="true" signature="1612:1908" placeholder="..." />
+            <marker date="1438074591389" expanded="true" signature="1687:1897" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/santechnika.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-31.384615">
+          <caret line="99" column="39" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+          <folding>
+            <marker date="1438074591351" expanded="true" signature="1512:1890" placeholder="..." />
+            <marker date="1438074591351" expanded="false" signature="1530:1581" placeholder="..." />
+            <marker date="1438074591351" expanded="true" signature="1582:1878" placeholder="..." />
+            <marker date="1438074591351" expanded="true" signature="1657:1867" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tovar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-32.03846">
+          <caret line="100" column="39" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
+          <folding>
+            <marker date="1438074591401" expanded="true" signature="1532:1910" placeholder="..." />
+            <marker date="1438074591401" expanded="false" signature="1550:1601" placeholder="..." />
+            <marker date="1438074591401" expanded="true" signature="1602:1898" placeholder="..." />
+            <marker date="1438074591401" expanded="true" signature="1677:1887" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48333332">
+          <caret line="1077" column="38" selection-start-line="1077" selection-start-column="38" selection-end-line="1077" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1064,11 +1064,20 @@ header .brand {
 header .call-us {
     float: right;
 }
+header .cont-link {
+    float: right;
+    display: block;
+}
 @media (max-width: 767px) {
     header {
         text-align: center; }
     header .brand, header .call-us {
-        float: none; } }
+        float: none; }
+    header .cont-link {
+        float: none;
+        margin: 20px 0 0 0 !important;
+    }
+}
 
 .hl {
     position: relative;
@@ -1143,6 +1152,17 @@ header .call-us {
     /*margin-right: -298px;*/
 }
 
+header div.cs-select {
+    max-width: 360px;
+}
+
+header .cont-link {
+    color: #fff;
+    font-family: Terra;
+    font-size: 23px;
+    line-height: 30px;
+    margin: 20px 57px 0 0;
+}
 
 
 .shadow {
@@ -1152,6 +1172,16 @@ header .call-us {
     -moz-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.3); }
 
+
+.camera_container.custom {
+    padding-bottom: 0;
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+
+#camera.camera_wrap {
+    position: relative;
+}
 /*========================================================
                      CONTENT  Section
 =========================================================*/
