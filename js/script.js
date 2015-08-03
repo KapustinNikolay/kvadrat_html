@@ -7,39 +7,6 @@ function isIE() {
     return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
 };
 
-
-
-function getCookie(name) {
-    var matches = document.cookie.match(new RegExp(
-        "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
-    ));
-    return matches ? decodeURIComponent(matches[1]) : undefined;
-}
-
-
-var st = getCookie("city");
-
-//var ss = document.getElementById("city_selector");
-// ss.selectedIndex = 1;
-
-
-if ( st == "Rostov" ){
-    $("#phone").text("+7 (863) 209-83-46");
-    $("#town").text("Ростов-на-Дону");
-    document.getElementById('contacts').src = "http://new.kvadratmarket.ru/frames/site1/contacts_rostov.html";
-}
-
-if (st == "Krasnodar") {
-    $("#phone").text("+7 (861) 275-55-52");
-    $("#town").text("Краснодар");
-    document.getElementById('contacts').src = "http://new.kvadratmarket.ru/frames/site1/contacts_krasnodar.html";
-}
-
-
-
-
-
-
 /* Easing library
  ========================================================*/
 include('js/jquery.easing.1.3.js');

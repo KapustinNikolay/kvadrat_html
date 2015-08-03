@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/bat/gmail.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frames/site1/js/TMForm.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/TMForm.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/client-script.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/js/script.js" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

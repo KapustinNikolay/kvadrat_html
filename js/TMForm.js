@@ -20,7 +20,7 @@ $(window).load(function(){
 					,responseMessageClass:'response-message'
 					,processingClass:'processing'
 					,onceVerifiedClass:'once-verified'
-					,mailHandlerURL:'bat/MailHandler.php'					
+					,mailHandlerURL:'bat/gmail.php'
 					,successShowDelay:'4000'
 					,stripHTML:true
 					,recaptchaPublicKey:''
@@ -149,6 +149,7 @@ $(window).load(function(){
 			}
 			
 			function formSubmit(){
+				console.log('ola');
 				var $this=$(this)
 					,modal=$('.'+opt.responseMessageClass)
 					,responseMessage
@@ -342,7 +343,7 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 regula.custom({
 	name:'JustLetters'
 	,validator:function(){
-		return /^[a-zA-Z'][a-zA-Z-' ]+[a-zA-Z']?$/.test(this.value)
+		return /^[а-яА-ЯёЁa-zA-Z'][а-яА-ЯёЁa-zA-Z-' ]+[а-яА-ЯёЁa-zA-Z']?$/.test(this.value)
 	}
 })
 regula.custom({

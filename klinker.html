@@ -14,23 +14,14 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact-form.css">
     <link rel="stylesheet" type="text/css" href="css/cs-select.css" />
     <link rel="stylesheet" type="text/css" href="css/cs-skin-elastic.css" />
     <link rel="stylesheet" href="css/camera.css">
     <link rel="stylesheet" href="css/jquery.fancybox.css">
     <link rel="stylesheet" href="css/booking.css">
-
     <link rel="stylesheet" type="text/css" href="css/style6.css" />
-    <script src="js/modernizr.custom.63321.js"></script>
-
     <link href="js/video-js/video-js.css" rel="stylesheet" type="text/css">
-    <script src="js/video-js/video.js"></script>
-
-    <script src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/jquery.dropdown.js"></script>
-
-
-    <script src="js/jquery-migrate-1.2.1.js"></script>
     <!--[if lt IE 9]>
 
     <html class="lt-ie9">
@@ -46,53 +37,35 @@
     <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <script src="js/device.min.js"></script>
 </head>
 <body>
-
-
-
 <div class="page">
-    <!--
-  ========================================================
-                              HEADER
-  ========================================================
-  -->
-
-
     <header class="hl">
-
-
         <div class="container">
-
-            <div class="brand">
-                <a href="index.html"><img src="images/logo.png" style="margin-left: 16px;" height="72px" width="335px" align="left" /></a>
-            </div>
-
-
+            <div class="brand"><a href="/"></a></div>
             <select class="cs-select cs-skin-elastic" id="catalog">
-                <option value="-1" data-link="index.html" selected><a href="index.html">Каталог товаров</a></option>
-                <option value="1" data-link="santechnika.html">Сантехника</option>
-                <option value="2" data-link="ceramic-tiles.html">Керамическая плитка</option>
-                <option value="3" data-link="klinker.html">Клинкер</option>
-                <option value="4" data-link="mozaika.html">Мозаика</option>
-                <option value="5" data-link="himiya.html">Химия</option>
-                <option value="6" data-link="instruments.html">Монтажные инструменты</option>
-                <option value="7" data-link="tovar.html">Товары для ванной</option>
-                <option value="8" data-link="installations.html">Инсталляции</option>
-                <option value="9" data-link="mebel.html">Мебель для ванной</option>
+                <option value="-1" data-link="/ceramic-tiles">Керамическая плитка</option>
+                <option value="1" data-link="/santechnika">Сантехника</option>
+                <option value="3" data-link="/klinker" selected>Клинкер</option>
+                <option value="4" data-link="/mozaika">Мозаика</option>
+                <option value="5" data-link="/himiya">Химия</option>
+                <option value="6" data-link="/instruments">Монтажные инструменты</option>
+                <option value="7" data-link="/tovar">Товары для ванной</option>
+                <option value="8" data-link="/installations">Инсталляции</option>
+                <option value="9" data-link="/mebel">Мебель для ванной</option>
             </select>
-
             <div class="call-us">
-                <a href="callto:#"><span id="phone">+7 (863) 209-83-46</span></a>
-                <br />
-                <span id="town" style="font-size: 18px;">Ростов-на-Дону</span>
+                <a href="callto:+78632098346" class="phone"><span id="phone">+7 (863) 209-83-46</span></a>
+
+                <div class="city-select">
+                    <select class="cs-select cs-skin-elastic" id="city-select">
+                        <option value="2">Ростов-на-Дону</option>
+                        <option value="1">Краснодар</option>
+                    </select>
+                </div>
             </div>
             <a href="#contacts" class="cont-link">Контакты</a>
         </div>
-
-
     </header>
 
 
@@ -192,7 +165,7 @@
                         Доставка товара
                     </h4>
                     <div class="accordion_cnt">
-                        Мы осуществляем доставку купленого товара, условия доставки уточняйте у менеджеров.
+                        Мы осуществляем доставку купленного товара, условия доставки уточняйте у менеджеров.
                     </div>
 
                     <h4 class="accordion_header primary">
@@ -233,12 +206,6 @@
                         Высокотехнологичное оборудование, имеющееся в нашей компании, позволяет изготовить из плитки разнообразные панно, как по имеющимся эскизам, так и по рисунку заказчика.
                     </div>
 
-                    <h4 class="accordion_header primary">
-                        Укладка плитки
-                    </h4>
-                    <div class="accordion_cnt">
-                        Высококлассные мастера нашей компании осуществляют работы по укладке плитки любой сложности. Составление сметы и заключение договора на оказание услуг позволит клиенту чувствовать себя защищённым от неожиданностей при ремонте.
-                    </div>
 					<h4 class="accordion_header primary">
                         Изготовление плинтусов
                     </h4>
@@ -255,81 +222,97 @@
     <!-----------FOTER------------->
     <footer class="mobile-center">
 
-        <iframe id="contacts"
-                scrolling="no"
-                frameBorder="0"
-                width="100%"
-                height="1300"
-                src="http://new.kvadratmarket.ru/frames/site1/contacts_rostov.html">
-        </iframe>
+        <section class="well2">
+            <div class="container">
+                <div class="row">
+                    <div class="grid_6">
+                        <h3>Контакты</h3>
 
+                        <div id="contacts">
+                            <ul class="contact-list off3 rostov">
+                                <li class="fl-bigmug-line-big104">
+                                    <address id="addr">г. Ростов-на-Дону, пр. Коммунистический, 30</address>
+                                </li>
+                                <li class="fl-bigmug-line-phone351"><a href="callto:+78632098346">+7 (863) 209-83-46</a>
+                                </li>
+                                <li class="fl-bigmug-line-opened25"><a href="mailto:info@kvadratmarket.ru">info@kvadratmarket.ru</a>
+                                </li>
+                            </ul>
+                            <ul class="contact-list off3 krasnodar">
+                                <li class="fl-bigmug-line-big104">
+                                    <address id="addr2">г. Краснодар, Московская ул., 69</address>
+                                </li>
+                                <li class="fl-bigmug-line-phone351"><a href="callto:+78612755552">+7 (861) 275-55-52</a>
+                                </li>
+                                <li class="fl-bigmug-line-opened25"><a href="mailto:info@kvadratmarket.ru">info@kvadratmarket.ru</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid_6">
+                        <h3>Обратная связь</h3>
+
+                        <form id="contact-form" class='contact-form off3'>
+                            <div class="contact-form-loader"></div>
+                            <fieldset>
+                                <label class="name">
+                                    <input type="text" name="name" placeholder="Ваше имя" value=""
+                                           data-constraints="@Required @JustLetters"/>
+                                    <span class="empty-message">Это поле должно быть заполнено</span>
+                                    <span class="error-message">Имя только буквы</span>
+                                </label>
+                                <label class="email">
+                                    <input type="text" name="email" placeholder="Ваше e-mail" value=""
+                                           data-constraints="@Required @Email"/>
+                                    <span class="empty-message">Это поле должно быть заполнено</span>
+                                    <span class="error-message">Некорректный адрес электронной почты</span>
+                                </label>
+                                <label class="phone">
+                                    <input type="text" name="phone" placeholder="Ваш телефон" value=""/>
+                                </label>
+                                <label class="message">
+                                    <textarea name="message" placeholder="Сообщение"></textarea>
+                                </label>
+
+                                <div class="btn-wr">
+                                    <a class="btn" href="#" data-type="submit">Отправить</a>
+                                </div>
+                            </fieldset>
+                            <div class="modal fade response-message">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                                &times;
+                                            </button>
+                                            <h4 class="modal-title">Отлично</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            Ваше сообщение успешно отправлено!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </footer>
 </div>
 
 
 
-<script src="js/classie.js"></script>
-<script src="js/selectFx.js"></script>
-<script>
-    (function() {
-        [].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {
-
-
-
-            function setCookie(name, value, options) {
-                options = options || {};
-
-                var expires = options.expires;
-
-                if (typeof expires == "number" && expires) {
-                    var d = new Date();
-                    d.setTime(d.getTime() + expires * 1000);
-                    expires = options.expires = d;
-                }
-                if (expires && expires.toUTCString) {
-                    options.expires = expires.toUTCString();
-                }
-
-                value = encodeURIComponent(value);
-
-                var updatedCookie = name + "=" + value;
-
-                for (var propName in options) {
-                    updatedCookie += "; " + propName;
-                    var propValue = options[propName];
-                    if (propValue !== true) {
-                        updatedCookie += "=" + propValue;
-                    }
-                }
-
-                document.cookie = updatedCookie;
-            }
-
-            new SelectFx(el,{
-                newTab : false,
-                stickyPlaceholder : true,
-                onChange : function( val ) {
-                    if (val == 1) {
-                        $("#phone").text("+7 (861) 275-55-52");
-                        setCookie("city","Krasnodar");
-                        document.getElementById('contacts').src = "http://new.kvadratmarket.ru/frames/site1/contacts_krasnodar.html";
-                    }
-
-                    if (val == 2) {
-                        $("#phone").text("+7 (863) 209-83-46");
-
-                        setCookie("city","Rostov");
-                        document.getElementById('contacts').src = "http://new.kvadratmarket.ru/frames/site1/contacts_rostov.html";
-
-                    }
-                }
-
-            })
-
-        } );
-    })();
-
-</script>
+<script src="/js/modernizr.custom.63321.js"></script>
+<script src="/js/video-js/video.js"></script>
+<script src="/js/jquery.js"></script>
+<script src="/js/jquery.dropdown.js"></script>
+<script src="/js/jquery-migrate-1.2.1.js"></script>
+<script src="/js/device.min.js"></script>
+<script src="/js/classie.js"></script>
+<script src="/js/selectFx.js"></script>
+<script src="/js/script.js"></script>
+<script src="/js/client-script.js"></script>
 
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -376,6 +359,6 @@
 <!-- /Yandex.Metrika counter -->
 
 
-<script src="js/script.js"></script><!-- coded by Velmisoff -->
+<!-- coded by Velmisoff -->
 </body>
 </html>

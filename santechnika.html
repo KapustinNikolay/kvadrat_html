@@ -7,36 +7,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="В наших магазинах представлен полный ассортимент сантехники и санфаянса от ведущих производителей!">
+    <meta name="description"
+          content="В наших магазинах представлен полный ассортимент сантехники и санфаянса от ведущих производителей!">
     <meta name="keywords" content="">
 
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/cs-select.css" />
-    <link rel="stylesheet" type="text/css" href="css/cs-skin-elastic.css" />
+    <link rel="stylesheet" href="css/contact-form.css">
+    <link rel="stylesheet" type="text/css" href="css/cs-select.css"/>
+    <link rel="stylesheet" type="text/css" href="css/cs-skin-elastic.css"/>
     <link rel="stylesheet" href="css/camera.css">
     <link rel="stylesheet" href="css/jquery.fancybox.css">
     <link rel="stylesheet" href="css/booking.css">
-
-    <link rel="stylesheet" type="text/css" href="css/style6.css" />
-    <script src="js/modernizr.custom.63321.js"></script>
-
+    <link rel="stylesheet" type="text/css" href="css/style6.css"/>
     <link href="js/video-js/video-js.css" rel="stylesheet" type="text/css">
-    <script src="js/video-js/video.js"></script>
-
-    <script src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/jquery.dropdown.js"></script>
-
-
-    <script src="js/jquery-migrate-1.2.1.js"></script>
     <!--[if lt IE 9]>
 
     <html class="lt-ie9">
     <div style="clear: both; text-align:center; position: relative;">
         <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
-            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a>
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a>
     </div>
     </html>
     <script src="js/html5shiv.js"></script>
@@ -46,54 +39,36 @@
     <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <script src="js/device.min.js"></script>
 </head>
 <body>
-
-
-
 <div class="page">
-    <!--
-  ========================================================
-                              HEADER
-  ========================================================
-  -->
-
-
-
     <header class="hl">
-
-
         <div class="container">
-
-            <div class="brand">
-                <a href="index.html"><img src="images/logo.png" style="margin-left: 16px;" height="72px" width="335px" align="left" /></a>
-            </div>
-
-
+            <div class="brand"><a href="/"></a></div>
             <select class="cs-select cs-skin-elastic" id="catalog">
-                <option value="-1" data-link="index.html" selected><a href="index.html">Каталог товаров</a></option>
-                <option value="1" data-link="santechnika.html">Сантехника</option>
-                <option value="2" data-link="ceramic-tiles.html">Керамическая плитка</option>
-                <option value="3" data-link="klinker.html">Клинкер</option>
-                <option value="4" data-link="mozaika.html">Мозаика</option>
-                <option value="5" data-link="himiya.html">Химия</option>
-                <option value="6" data-link="instruments.html">Монтажные инструменты</option>
-                <option value="7" data-link="tovar.html">Товары для ванной</option>
-                <option value="8" data-link="installations.html">Инсталляции</option>
-                <option value="9" data-link="mebel.html">Мебель для ванной</option>
+                <option value="-1" data-link="/ceramic-tiles">Керамическая плитка</option>
+                <option value="1" data-link="/santechnika" selected>Сантехника</option>
+                <option value="3" data-link="/klinker">Клинкер</option>
+                <option value="4" data-link="/mozaika">Мозаика</option>
+                <option value="5" data-link="/himiya">Химия</option>
+                <option value="6" data-link="/instruments">Монтажные инструменты</option>
+                <option value="7" data-link="/tovar">Товары для ванной</option>
+                <option value="8" data-link="/installations">Инсталляции</option>
+                <option value="9" data-link="/mebel">Мебель для ванной</option>
             </select>
 
             <div class="call-us">
-                <a href="callto:#"><span id="phone">+7 (863) 209-83-46</span></a>
-                <br />
-                <span id="town" style="font-size: 18px;">Ростов-на-Дону</span>
+                <a href="callto:+78632098346" class="phone"><span id="phone">+7 (863) 209-83-46</span></a>
+
+                <div class="city-select">
+                    <select class="cs-select cs-skin-elastic" id="city-select">
+                        <option value="2">Ростов-на-Дону</option>
+                        <option value="1">Краснодар</option>
+                    </select>
+                </div>
             </div>
             <a href="#contacts" class="cont-link">Контакты</a>
         </div>
-
-
     </header>
 
 
@@ -105,7 +80,7 @@
             <div data-src="images/slider-santeh2.jpg">
                 <div class="camera_caption fadeIn"></div>
             </div>
-            
+
         </div>
     </div>
 
@@ -114,7 +89,12 @@
         <section class="well ins1">
             <div class="container">
                 <h2 class="center">Сантехника</h2>
-                <p class="txt1 center">Супермаркет "Квадрат" предлагает потребителям широкий выбор сантехники и сантехнического оборудования, которое удивит приятной стоимостью, хорошими эксплуатационными характеристиками и большим разнообразием дизайнов и расцветок на любой вкус. Если у Вас возникли затруднения с выбором - наши специалисты проведут консультацию, подберут предпочтительное для вас решение, оформят доставку.</p>
+
+                <p class="txt1 center">Супермаркет "Квадрат" предлагает потребителям широкий выбор сантехники и
+                    сантехнического оборудования, которое удивит приятной стоимостью, хорошими эксплуатационными
+                    характеристиками и большим разнообразием дизайнов и расцветок на любой вкус. Если у Вас возникли
+                    затруднения с выбором - наши специалисты проведут консультацию, подберут предпочтительное для вас
+                    решение, оформят доставку.</p>
             </div>
         </section>
 
@@ -124,16 +104,20 @@
                     <div class="grid_5">
                         <div class="well well__mod bg col-white">
                             <h3>Сантехника</h3>
-                            <p>В наших супермаркетах можно купить сантехнику различных видов, форм и расцветок. У нас представлено множество моделей следующей продукции:<div>&nbsp</div>
-							<li>Раковины</li>
-							<li>Унитазы и компакты</li>
-							<li>Ванны</li>
-							<li>Душевые кабины и панели</li>
-							<li>Душевые поддоны</li>
-							<li>Биде и писсуары</li>
-							<li>Смесители</li>
-							<li>Комплектующие</li>
-							</p>
+
+                            <p>В наших супермаркетах можно купить сантехнику различных видов, форм и расцветок. У нас
+                                представлено множество моделей следующей продукции:
+
+                            <div>&nbsp</div>
+                            <li>Раковины</li>
+                            <li>Унитазы и компакты</li>
+                            <li>Ванны</li>
+                            <li>Душевые кабины и панели</li>
+                            <li>Душевые поддоны</li>
+                            <li>Биде и писсуары</li>
+                            <li>Смесители</li>
+                            <li>Комплектующие</li>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -141,8 +125,8 @@
         </section>
 
         <p>&nbsp</p>
-		<p>&nbsp</p>
 
+        <p>&nbsp</p>
 
 
         <section class="well ins1">
@@ -151,7 +135,7 @@
             </div>
         </section>
         <section data-url="images/brand-santech.jpg" data-mobile="true" class="well3 center parallax">
-            
+
         </section>
 
 
@@ -174,23 +158,27 @@
      ========================================================
      -->
 
-  <section class="well ins1">
+    <section class="well ins1">
         <div class="container">
             <h2 class="center">Наши услуги</h2>
+
             <div class="row off3 accordion">
                 <div class="grid_6">
                     <h4 class="accordion_header primary">
                         Доставка товара
                     </h4>
+
                     <div class="accordion_cnt">
-                        Мы осуществляем доставку  купленного товара, условия доставки уточняйте у менеджеров.
+                        Мы осуществляем доставку купленного товара, условия доставки уточняйте у менеджеров.
                     </div>
 
                     <h4 class="accordion_header primary">
                         Дизайн-проект
                     </h4>
+
                     <div class="accordion_cnt">
-                        Услуга «дизайн-проект» предоставляется клиенту бесплатно, в подарок к покупаемой плитке! Условия предоставления дизайн-проекта для  покупателей уточняйте у менеджеров.
+                        Услуга «дизайн-проект» предоставляется клиенту бесплатно, в подарок к покупаемой плитке! Условия
+                        предоставления дизайн-проекта для покупателей уточняйте у менеджеров.
                     </div>
 
                     <h4 class="accordion_header primary">
@@ -198,43 +186,49 @@
                     </h4>
 
                     <div class="accordion_cnt">
-                        По желанию клиента наша компания может изготовить ступени из плитки, имеющейся в ассортименте нашей компании.
+                        По желанию клиента наша компания может изготовить ступени из плитки, имеющейся в ассортименте
+                        нашей компании.
                     </div>
-					<h4 class="accordion_header primary">
+                    <h4 class="accordion_header primary">
                         Комплектация ванн
                     </h4>
+
                     <div class="accordion_cnt">
-                        Ванны "BAS"- это современные технологии и оригинальные линии, обеспечивающие комфорт принятия водных процедур. По желанию клиента любая из этих ванн может быть укомплектована гидромассажным или аэромассажным оборудованием, а так же другими функциями, предусмотренными производителем. Схемы комплектации можно узнать в любом из магазинов компании.
+                        Ванны "BAS"- это современные технологии и оригинальные линии, обеспечивающие комфорт принятия
+                        водных процедур. По желанию клиента любая из этих ванн может быть укомплектована гидромассажным
+                        или аэромассажным оборудованием, а так же другими функциями, предусмотренными производителем.
+                        Схемы комплектации можно узнать в любом из магазинов компании.
                     </div>
 
                 </div>
 
                 <div class="grid_6">
                     <h4 class="accordion_header primary">
-                       Резка плитки
+                        Резка плитки
                     </h4>
+
                     <div class="accordion_cnt">
-                       Наша компания имеет уникальное оборудование, позволяющее осуществлять резку плитки любых форматов по размерам, необходимым клиенту. Стоимость данной услуги уточняйте у продавцов-консультантов.
+                        Наша компания имеет уникальное оборудование, позволяющее осуществлять резку плитки любых
+                        форматов по размерам, необходимым клиенту. Стоимость данной услуги уточняйте у
+                        продавцов-консультантов.
                     </div>
 
                     <h4 class="accordion_header primary">
                         Изготовление панно
                     </h4>
+
                     <div class="accordion_cnt">
-                        Высокотехнологичное оборудование, имеющееся в нашей компании, позволяет изготовить из плитки разнообразные панно, как по имеющимся эскизам, так и по рисунку заказчика.
+                        Высокотехнологичное оборудование, имеющееся в нашей компании, позволяет изготовить из плитки
+                        разнообразные панно, как по имеющимся эскизам, так и по рисунку заказчика.
                     </div>
 
                     <h4 class="accordion_header primary">
-                        Укладка плитки
-                    </h4>
-                    <div class="accordion_cnt">
-                        Высококлассные мастера нашей компании осуществляют работы по укладке плитки любой сложности. Составление сметы и заключение договора на оказание услуг позволит клиенту чувствовать себя защищённым от неожиданностей при ремонте.
-                    </div>
-					<h4 class="accordion_header primary">
                         Изготовление плинтусов
                     </h4>
+
                     <div class="accordion_cnt">
-                        Наша компания имеет уникальное оборудование, позволяющее изготовить различные плинтуса по размерам, необходимым клиенту. Стоимость данной услуги уточняйте у продавцов-консультантов.
+                        Наша компания имеет уникальное оборудование, позволяющее изготовить различные плинтуса по
+                        размерам, необходимым клиенту. Стоимость данной услуги уточняйте у продавцов-консультантов.
                     </div>
 
                 </div>
@@ -243,91 +237,112 @@
     </section>
 
 
-
     <!-----------FOTER------------->
     <footer class="mobile-center">
 
-        <iframe id="contacts"
-                scrolling="no"
-                frameBorder="0"
-                width="100%"
-                height="550"
-                src="http://new.kvadratmarket.ru/frames/site1/contacts_rostov.html">
-        </iframe>
+        <section class="well2">
+            <div class="container">
+                <div class="row">
+                    <div class="grid_6">
+                        <h3>Контакты</h3>
 
+                        <div id="contacts">
+                            <ul class="contact-list off3 rostov">
+                                <li class="fl-bigmug-line-big104">
+                                    <address id="addr">г. Ростов-на-Дону, пр. Коммунистический, 30</address>
+                                </li>
+                                <li class="fl-bigmug-line-phone351"><a href="callto:+78632098346">+7 (863) 209-83-46</a>
+                                </li>
+                                <li class="fl-bigmug-line-opened25"><a href="mailto:info@kvadratmarket.ru">info@kvadratmarket.ru</a>
+                                </li>
+                            </ul>
+                            <ul class="contact-list off3 krasnodar">
+                                <li class="fl-bigmug-line-big104">
+                                    <address id="addr2">г. Краснодар, Московская ул., 69</address>
+                                </li>
+                                <li class="fl-bigmug-line-phone351"><a href="callto:+78612755552">+7 (861) 275-55-52</a>
+                                </li>
+                                <li class="fl-bigmug-line-opened25"><a href="mailto:info@kvadratmarket.ru">info@kvadratmarket.ru</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid_6">
+                        <h3>Обратная связь</h3>
+
+                        <form id="contact-form" class='contact-form off3'>
+                            <div class="contact-form-loader"></div>
+                            <fieldset>
+                                <label class="name">
+                                    <input type="text" name="name" placeholder="Ваше имя" value=""
+                                           data-constraints="@Required @JustLetters"/>
+                                    <span class="empty-message">Это поле должно быть заполнено</span>
+                                    <span class="error-message">Имя только буквы</span>
+                                </label>
+                                <label class="email">
+                                    <input type="text" name="email" placeholder="Ваше e-mail" value=""
+                                           data-constraints="@Required @Email"/>
+                                    <span class="empty-message">Это поле должно быть заполнено</span>
+                                    <span class="error-message">Некорректный адрес электронной почты</span>
+                                </label>
+                                <label class="phone">
+                                    <input type="text" name="phone" placeholder="Ваш телефон" value=""/>
+                                </label>
+                                <label class="message">
+                                    <textarea name="message" placeholder="Сообщение"></textarea>
+                                </label>
+
+                                <div class="btn-wr">
+                                    <a class="btn" href="#" data-type="submit">Отправить</a>
+                                </div>
+                            </fieldset>
+                            <div class="modal fade response-message">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                                &times;
+                                            </button>
+                                            <h4 class="modal-title">Отлично</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            Ваше сообщение успешно отправлено!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </footer>
 </div>
 
 
-
-<script src="js/classie.js"></script>
-<script src="js/selectFx.js"></script>
-<script>
-    (function() {
-        [].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {
-
-
-
-            function setCookie(name, value, options) {
-                options = options || {};
-
-                var expires = options.expires;
-
-                if (typeof expires == "number" && expires) {
-                    var d = new Date();
-                    d.setTime(d.getTime() + expires * 1000);
-                    expires = options.expires = d;
-                }
-                if (expires && expires.toUTCString) {
-                    options.expires = expires.toUTCString();
-                }
-
-                value = encodeURIComponent(value);
-
-                var updatedCookie = name + "=" + value;
-
-                for (var propName in options) {
-                    updatedCookie += "; " + propName;
-                    var propValue = options[propName];
-                    if (propValue !== true) {
-                        updatedCookie += "=" + propValue;
-                    }
-                }
-
-                document.cookie = updatedCookie;
-            }
-
-            new SelectFx(el,{
-                newTab : false,
-                stickyPlaceholder : true,
-                onChange : function( val ) {
-                    if (val == 1) {
-                        $("#phone").text("+7 (861) 275-55-52");
-                        setCookie("city","Krasnodar");
-                        document.getElementById('contacts').src = "http://new.kvadratmarket.ru/frames/site1/contacts_krasnodar.html";
-                    }
-
-                    if (val == 2) {
-                        $("#phone").text("+7 (863) 209-83-46");
-
-                        setCookie("city","Rostov");
-                        document.getElementById('contacts').src = "http://new.kvadratmarket.ru/frames/site1/contacts_rostov.html";
-
-                    }
-                }
-
-            })
-
-        } );
-    })();
-
-</script>
+<script src="/js/modernizr.custom.63321.js"></script>
+<script src="/js/video-js/video.js"></script>
+<script src="/js/jquery.js"></script>
+<script src="/js/jquery.dropdown.js"></script>
+<script src="/js/jquery-migrate-1.2.1.js"></script>
+<script src="/js/device.min.js"></script>
+<script src="/js/classie.js"></script>
+<script src="/js/selectFx.js"></script>
+<script src="/js/script.js"></script>
+<script src="/js/client-script.js"></script>
 
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-30921537-1', 'auto');
     ga('send', 'pageview');
@@ -335,38 +350,44 @@
 </script>
 
 
-
-
-
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
+        (w[c] = w[c] || []).push(function () {
             try {
-                w.yaCounter13888960 = new Ya.Metrika({id:13888960,
-                    webvisor:true,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true,
-                    trackHash:true});
-            } catch(e) { }
+                w.yaCounter13888960 = new Ya.Metrika({
+                    id: 13888960,
+                    webvisor: true,
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true,
+                    trackHash: true
+                });
+            } catch (e) {
+            }
         });
 
         var n = d.getElementsByTagName("script")[0],
                 s = d.createElement("script"),
-                f = function () { n.parentNode.insertBefore(s, n); };
+                f = function () {
+                    n.parentNode.insertBefore(s, n);
+                };
         s.type = "text/javascript";
         s.async = true;
         s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
 
         if (w.opera == "[object Opera]") {
             d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
+        } else {
+            f();
+        }
     })(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript><div><img src="//mc.yandex.ru/watch/13888960" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript>
+    <div><img src="//mc.yandex.ru/watch/13888960" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
 <!-- /Yandex.Metrika counter -->
 
-<script src="js/script.js"></script><!-- coded by Velmisoff -->
+<!-- coded by Velmisoff -->
 </body>
 </html>

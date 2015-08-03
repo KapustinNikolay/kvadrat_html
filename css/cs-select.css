@@ -57,7 +57,7 @@ div.cs-select:focus {
 
 .cs-select > span::after {
 	content: '\25BE';
-	right: 5em;
+	right: 3em;
 }
 
 .cs-select .cs-selected span::after {
@@ -81,6 +81,7 @@ div.cs-active {
 	width: 100%;
 	background: #ef7f1a;
 	visibility: hidden;
+	font-size: 18px;
 }
 
 .cs-select.cs-active .cs-options {
