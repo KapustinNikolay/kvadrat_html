@@ -87,6 +87,12 @@ h2 {
     color: #505050;
 }
 
+@media (max-width: 500px) {
+    h2 {
+        font-size: 43px;
+    }
+}
+
 h3 {
     font: 300 35px/38px "Open Sans Condensed", sans-serif;
     color: #454545;
@@ -733,6 +739,12 @@ time + h5 {
     font: 700 55px/55px "Open Sans Condensed", sans-serif;
 }
 
+@media (max-width: 500px) {
+    .price {
+        padding-bottom: 10px;
+        font-size: 48px;
+    }
+}
 .price:after {
     content: "";
     position: absolute;
@@ -1166,9 +1178,15 @@ header .cont-link {
         text-align: center;
     }
 
+    header .brand {
+        margin: 20px auto 0;
+    }
+    header .call-us {
+        margin: 5px auto 0;
+    }
     header .brand, header .call-us {
         float: none;
-        margin: 20px auto 0;
+
     }
 
     header .cont-link {
@@ -1529,6 +1547,14 @@ main .video {
     -o-transition: 0.3s all ease;
     -webkit-transition: 0.3s all ease;
     transition: 0.3s all ease;
+}
+
+@media (max-width: 500px) {
+    .accordion_header {
+        padding: 14px 55px 20px 20px;
+        font-size: 26px;
+        line-height: normal;
+    }
 }
 
 .accordion_header:hover {
