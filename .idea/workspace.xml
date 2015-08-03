@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f021b56a-1bd6-4c8a-91a2-79f40d077f30" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/fonts/icomoon.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/icons.css" afterPath="$PROJECT_DIR$/css/icons.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kvadrat_new.iws" />
@@ -75,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="instruments.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="instruments.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/instruments.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.3772635">
+            <state vertical-scroll-proportion="90.88461">
               <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
               <folding>
                 <marker date="1438597210152" expanded="true" signature="1319:1714" placeholder="..." />
@@ -123,22 +124,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mozaika.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mozaika.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.23077">
-              <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-              <folding>
-                <marker date="1438597210229" expanded="true" signature="1324:1719" placeholder="..." />
-                <marker date="1438597210229" expanded="false" signature="1342:1393" placeholder="..." />
-                <marker date="1438597210229" expanded="true" signature="1394:1707" placeholder="..." />
-                <marker date="1438597210229" expanded="true" signature="1469:1696" placeholder="..." />
-                <marker date="1438597210229" expanded="true" signature="1569:1692" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -165,7 +150,7 @@
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1184" column="26" selection-start-line="1184" selection-start-column="26" selection-end-line="1184" selection-end-column="26" />
+              <caret line="515" column="27" selection-start-line="515" selection-start-column="27" selection-end-line="515" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -174,11 +159,19 @@
       <file leaf-file-name="icons.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/icons.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.04">
-              <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-              <folding>
-                <element signature="e#282#12191#2" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-14.96">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.016666668">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -210,7 +203,6 @@
         <option value="$PROJECT_DIR$/pages/frames/site1/js/TMForm.js" />
         <option value="$PROJECT_DIR$/pages/js/TMForm.js" />
         <option value="$PROJECT_DIR$/bat/gmail.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/quickstart.js" />
         <option value="$PROJECT_DIR$/tovar.html" />
         <option value="$PROJECT_DIR$/santechnika.html" />
@@ -221,9 +213,10 @@
         <option value="$PROJECT_DIR$/installations.html" />
         <option value="$PROJECT_DIR$/himiya.html" />
         <option value="$PROJECT_DIR$/ceramic-tiles.html" />
-        <option value="$PROJECT_DIR$/css/icons.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/icons.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -279,20 +272,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="kvadrat-new.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kvadrat_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kvadrat-new.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -400,7 +379,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438603457027</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="some fixes">
+      <created>1438605941864</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1438605941864</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -445,7 +430,8 @@
     <MESSAGE value="big refactoring" />
     <MESSAGE value="sorry, i am stupid" />
     <MESSAGE value="some bugs, and test fix for  iphone" />
-    <option name="LAST_COMMIT_MESSAGE" value="some bugs, and test fix for  iphone" />
+    <MESSAGE value="some fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -641,14 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tovar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-25.5">
@@ -682,11 +660,11 @@
         <state vertical-scroll-proportion="-22.23077">
           <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
           <folding>
-            <marker date="1438597210229" expanded="true" signature="1324:1719" placeholder="..." />
-            <marker date="1438597210229" expanded="false" signature="1342:1393" placeholder="..." />
-            <marker date="1438597210229" expanded="true" signature="1394:1707" placeholder="..." />
-            <marker date="1438597210229" expanded="true" signature="1469:1696" placeholder="..." />
-            <marker date="1438597210229" expanded="true" signature="1569:1692" placeholder="..." />
+            <marker date="1438597210229" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438597210229" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1438597210229" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438597210229" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438597210229" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -763,24 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/icons.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.04">
-          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-          <folding>
-            <element signature="e#282#12191#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1184" column="26" selection-start-line="1184" selection-start-column="26" selection-end-line="1184" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-32.692307">
@@ -803,7 +763,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/instruments.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3772635">
+        <state vertical-scroll-proportion="90.88461">
           <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
           <folding>
             <marker date="1438597210152" expanded="true" signature="1319:1714" placeholder="..." />
@@ -812,6 +772,30 @@
             <marker date="1438597210152" expanded="true" signature="1464:1691" placeholder="..." />
             <marker date="1438597210152" expanded="true" signature="1564:1687" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="515" column="27" selection-start-line="515" selection-start-column="27" selection-end-line="515" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/icons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.96">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.016666668">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
