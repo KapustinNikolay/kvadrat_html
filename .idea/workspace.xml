@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f021b56a-1bd6-4c8a-91a2-79f40d077f30" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/fonts/icomoon.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/icons.css" afterPath="$PROJECT_DIR$/css/icons.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/codropsicons/codropsicons.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fl-bigmug-line.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fl-real-estate-3.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/material-design.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/pfdintextpro-medium-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/pfdintextpro-medium-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/pfdintextpro-medium-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/pfdintextpro-medium-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/pfdintextpro-medium-webfont.svg" />
+      <change type="DELETED" beforePath="C:\OpenServer\OpenServer\domains\kvadrat-new.local\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\OpenServer\domains\kvadrat-new.local\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\OpenServer\domains\kvadrat-new.local\.idea\kvadrat_new.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\OpenServer\domains\kvadrat-new.local\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\OpenServer\domains\kvadrat-new.local\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\OpenServer\domains\kvadrat-new.local\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\OpenServer\domains\kvadrat-new.local\.idea\workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fl-bigmug-line.css" afterPath="$PROJECT_DIR$/css/fl-bigmug-line.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="kvadrat_new.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -108,22 +122,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mebel.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mebel.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.846153">
-              <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
-              <folding>
-                <marker date="1438597210286" expanded="true" signature="1311:1706" placeholder="..." />
-                <marker date="1438597210286" expanded="false" signature="1329:1380" placeholder="..." />
-                <marker date="1438597210286" expanded="true" signature="1381:1694" placeholder="..." />
-                <marker date="1438597210286" expanded="true" signature="1456:1683" placeholder="..." />
-                <marker date="1438597210286" expanded="true" signature="1556:1679" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -146,12 +144,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="515" column="27" selection-start-line="515" selection-start-column="27" selection-end-line="515" selection-end-column="27" />
-              <folding />
+            <state vertical-scroll-proportion="0.3081571">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="2" selection-end-line="21" selection-end-column="3" />
+              <folding>
+                <element signature="e#1062#32452#1" expanded="true" />
+                <element signature="e#32474#72455#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,11 +167,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.016666668">
+            <state vertical-scroll-proportion="0.0">
               <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fl-bigmug-line.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/fl-bigmug-line.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.16">
+              <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -214,9 +225,10 @@
         <option value="$PROJECT_DIR$/himiya.html" />
         <option value="$PROJECT_DIR$/ceramic-tiles.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/icons.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/css/fl-bigmug-line.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -272,6 +284,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="kvadrat-new.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kvadrat_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kvadrat-new.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -385,7 +411,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438605941864</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ios fonts trouble">
+      <created>1438606585489</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1438606585489</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -431,7 +463,8 @@
     <MESSAGE value="sorry, i am stupid" />
     <MESSAGE value="some bugs, and test fix for  iphone" />
     <MESSAGE value="some fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some fixes" />
+    <MESSAGE value="ios fonts trouble" />
+    <option name="LAST_COMMIT_MESSAGE" value="ios fonts trouble" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -674,11 +707,11 @@
         <state vertical-scroll-proportion="-24.846153">
           <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
           <folding>
-            <marker date="1438597210286" expanded="true" signature="1311:1706" placeholder="..." />
-            <marker date="1438597210286" expanded="false" signature="1329:1380" placeholder="..." />
-            <marker date="1438597210286" expanded="true" signature="1381:1694" placeholder="..." />
-            <marker date="1438597210286" expanded="true" signature="1456:1683" placeholder="..." />
-            <marker date="1438597210286" expanded="true" signature="1556:1679" placeholder="..." />
+            <marker date="1438597210286" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438597210286" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1438597210286" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438597210286" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1438597210286" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -775,14 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="515" column="27" selection-start-line="515" selection-start-column="27" selection-end-line="515" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/icons.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.96">
@@ -793,9 +818,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.016666668">
+        <state vertical-scroll-proportion="0.0">
           <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/fl-bigmug-line.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.16">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3081571">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="2" selection-end-line="21" selection-end-column="3" />
+          <folding>
+            <element signature="e#1062#32452#1" expanded="true" />
+            <element signature="e#32474#72455#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
