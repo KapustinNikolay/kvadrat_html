@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f021b56a-1bd6-4c8a-91a2-79f40d077f30" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/codropsicons/codropsicons.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fl-bigmug-line.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fl-real-estate-3.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/material-design.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/pfdintextpro-medium-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/pfdintextpro-medium-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/pfdintextpro-medium-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/pfdintextpro-medium-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/pfdintextpro-medium-webfont.svg" />
-      <change type="DELETED" beforePath="C:\OpenServer\OpenServer\domains\kvadrat-new.local\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\OpenServer\domains\kvadrat-new.local\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\OpenServer\domains\kvadrat-new.local\.idea\kvadrat_new.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\OpenServer\domains\kvadrat-new.local\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\OpenServer\domains\kvadrat-new.local\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\OpenServer\domains\kvadrat-new.local\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\OpenServer\OpenServer\domains\kvadrat-new.local\.idea\workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fl-bigmug-line.css" afterPath="$PROJECT_DIR$/css/fl-bigmug-line.css" />
+    <list default="true" id="f021b56a-1bd6-4c8a-91a2-79f40d077f30" name="Default" comment="ios fonts trouble full resolve">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kvadrat_new.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -147,12 +132,9 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3081571">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="2" selection-end-line="21" selection-end-column="3" />
-              <folding>
-                <element signature="e#1062#32452#1" expanded="true" />
-                <element signature="e#32474#72455#1" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.32527694">
+              <caret line="31" column="87" selection-start-line="31" selection-start-column="87" selection-end-line="31" selection-end-column="87" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,8 +142,8 @@
       <file leaf-file-name="icons.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/icons.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.96">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state vertical-scroll-proportion="-2.04">
+              <caret line="3" column="69" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -171,7 +153,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -226,8 +208,8 @@
         <option value="$PROJECT_DIR$/ceramic-tiles.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/icons.css" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/css/fl-bigmug-line.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
@@ -284,20 +266,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="kvadrat-new.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kvadrat_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kvadrat-new.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -417,20 +385,26 @@
       <option name="project" value="LOCAL" />
       <updated>1438606585489</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ios fonts trouble full resolve">
+      <created>1438607303348</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1438607303348</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1164" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24960506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12954186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919848" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48473284" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48470363" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -464,7 +438,8 @@
     <MESSAGE value="some bugs, and test fix for  iphone" />
     <MESSAGE value="some fixes" />
     <MESSAGE value="ios fonts trouble" />
-    <option name="LAST_COMMIT_MESSAGE" value="ios fonts trouble" />
+    <MESSAGE value="ios fonts trouble full resolve" />
+    <option name="LAST_COMMIT_MESSAGE" value="ios fonts trouble full resolve" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -808,22 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/icons.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.96">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/fl-bigmug-line.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.16">
@@ -832,14 +791,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/icons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.04">
+          <caret line="3" column="69" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3081571">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="2" selection-end-line="21" selection-end-column="3" />
-          <folding>
-            <element signature="e#1062#32452#1" expanded="true" />
-            <element signature="e#32474#72455#1" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.32527694">
+          <caret line="31" column="87" selection-start-line="31" selection-start-column="87" selection-end-line="31" selection-end-column="87" />
+          <folding />
         </state>
       </provider>
     </entry>
