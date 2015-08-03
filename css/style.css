@@ -875,7 +875,7 @@ p + .link {
     transition: 0.3s all ease;
     color: #fff;
     background: transparent;
-    padding-top: 260px;
+    /*padding-top: 260px;*/
 }
 
 .thumb_overlay_cnt {
